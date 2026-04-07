@@ -117,7 +117,7 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Software_bill_of_materials):
 - [NTIA Conformance Checker](https://github.com/spdx/ntia-conformance-checker) - Check SPDX SBOM for NTIA minimum elements
 - [sbom-scorecard](https://github.com/eBay/sbom-scorecard) - Generate a score for your sbom to understand if it will actually be useful.
 - [parlay](https://github.com/snyk/parlay) - Enrich SBOMs with data from third party services
-- [vens](https://github.com/venslabs/vens) - Context-aware vulnerability risk scoring. Generates CycloneDX VEX with OWASP risk scores from Trivy/Grype reports using LLM analysis.
+- [vens](https://github.com/venslabs/vens) - Prioritize vulnerabilities by real risk, not just CVSS. Takes a Trivy or Grype scan and scores each CVE based on your system's actual context.
 
 ## Articles and Blogs
 
@@ -167,6 +167,3 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Software_bill_of_materials):
 
 ## Benchmarks
 - [SBOM Benchmark](https://sbombenchmark.dev) Quickly evaluate SBOM for quality, compliance and errors.
-
-
-
